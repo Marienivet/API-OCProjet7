@@ -32,7 +32,7 @@ jobs:
     - name: Prepare data files
       run: |
         mkdir -p /content/drive/My\ Drive/OCProjet7/Data
-        cp /content/drive/My\ Drive/OCProjet7/Data/lgbm_credit.pkl ./Data/
+        cp /content/drive/My\ Drive/OCProjet7/Data/xgb_model_optimized.pkl ./Data/
         cp /content/drive/My\ Drive/OCProjet7/Data/df_train_clean.csv ./Data/
 
     # 4. Lancer les tests unitaires
