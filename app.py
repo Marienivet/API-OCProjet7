@@ -6,7 +6,7 @@ import os
 app = FastAPI()
 
 # Définir le chemin relatif au fichier modèle
-model_path = os.path.join(os.path.dirname(__file__), 'xgb_model_optimized')
+model_path = os.path.join(os.path.dirname(__file__), 'xgb_model_optimizedt.pkl')
 
 # Charger le modèle
 try:
